@@ -1,0 +1,67 @@
+/*--- End Outer Table 1 --*/
+/*--- Start Two Column Sections --*/
+/*--- Start Outer Table Banner Image, Text & Button --*/
+/*--- Start Two Column Image & Text Sections --*/
+/*--- Start 3 Column Image & Text Section --*/
+/*--- Start Two Column Article Section --*/
+/*--- Start Bottom One Column Section --*/
+/*--- Media Queries --*/
+@media screen and (max-width: 400px) {
+	.h1 {
+		font-size: 22px;
+	}
+	.two-column .column,
+	.three-column .column {
+		max-width: 100% !important;
+	}
+	.two-column img {
+		width: 100% !important;
+	}
+	.three-column img {
+		max-width: 60% !important;
+	}
+}
+@media screen and (min-width: 401px) and (max-width: 400px) {
+	.two-column .column {
+		max-width: 50% !important;
+	}
+	.three-column .column {
+		max-width: 33% !important;
+	}
+}
+@media screen and (max-width: 768px) {
+	img.logo {
+		float: none !important;
+		margin-left: 0% !important;
+		max-width: 200px !important;
+	}
+	#callout {
+		float: none !important;
+		margin: 0% 0% 0% 0;
+		height: auto;
+		text-align: center;
+		overflow: hidden;
+	}
+	#callout img {
+		max-width: 26px !important;
+	}
+	.two-column .section {
+		width: 100% !important;
+		max-width: 100% !important;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.two-column img {
+		width: 100% !important;
+		height: auto !important;
+	}
+	img.img-responsive {
+		width: 100% !important;
+		height: auto !important;
+		max-width: 100% !important;
+	}
+	.content {
+		width: 100%;
+		padding-top: 0px !important;
+	}
+}
